@@ -1,0 +1,26 @@
+.heading{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+
+.heading h1{
+    font-size: 27px;
+    font-weight: 600;
+    color: #344d42;
+}
+
+.heading .underline{
+    background-color:#344d42 ;
+    height:5px ;
+    width: 50px;
+    margin-top: -10px;
+}
+
+.heading p{
+    font-size: 22px;
+    font-weight: 600;
+    color: #344d42;
+}
