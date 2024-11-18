@@ -6,7 +6,7 @@ body{
     width: 1440px;
     height: auto;
     margin: 0 auto;
-    border: 3px solid blue;
+    border: 3px solid transparent;
     padding-left: 7.5rem;
     padding-right: 7.5rem;
     margin-bottom: 300px;

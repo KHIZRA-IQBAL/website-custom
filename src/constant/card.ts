@@ -42,7 +42,7 @@ export const cardData=[
     {
         Id:6,
         backgroundColor:"#337d50",
-        src:"/pic-(6).png",
+        src:"/download.png",
         heading:"Radiant gold bangle timeless elegance.",
         price:"$30.99",
         rating:3,
