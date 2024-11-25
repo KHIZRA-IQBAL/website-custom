@@ -1,0 +1,98 @@
+.bestselling{
+    width: 100%;
+    /* border: 3px solid  red; */
+    padding-top: 5.4375rem;
+    /* background-color: #ffe6cc; */
+    text-align: center;
+}
+
+.bestselling h1{
+  font-size:3.75rem;
+  color: #1a3027;
+  line-height: 4.4375rem;
+}
+
+.bestselling p{
+    font-size: 1.125rem;
+    color: #344d42;
+}
+
+.bestselling button{
+    background-color:  transparent;
+    border: 2px solid #1a3027;
+    color: #1a3027;
+    width: 16.0625rem;
+    height: 3.125rem;
+    font-size: 1.5625rem;
+    margin-top: 2.6875rem;
+    border-radius: .375rem;
+    margin-bottom: 4.3125rem;
+
+    &:hover{
+        background-color: #1a3027;
+        color: #ffe6cc;
+    }
+}
+
+.embla{
+    overflow: hidden;
+    /* background-color: blue; */
+    margin-top: 3.3125rem;
+
+    &:hover{
+        transform: scale(1.01);
+    }
+}
+
+.embla__container{
+    display: flex;
+}
+
+.embla__slide{
+   display: flex;
+   flex-direction: column;
+   margin-right: 5.4375rem;
+}
+
+.imgdiv{
+    width: 341px;
+    height:393px ;
+    background-color: #32473f;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cardimg{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.cardtext{
+    width: 341px;
+}
+
+.cardtext h1{
+    font-size: 1.125rem;
+    color:  black;
+}
+
+.cardtext p{
+    font-size: 1.125rem;
+    color:  black;
+    white-space: pre;
+}
+
+.pricediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star{
+    display: inline-block;
+    margin-top: -3px;
+}
+

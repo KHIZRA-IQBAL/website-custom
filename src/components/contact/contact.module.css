@@ -1,0 +1,56 @@
+.contact{
+    display: flex;
+    margin: auto;
+    gap: 0;
+}
+
+
+.contactmain h1{
+    margin-top: 2.8125rem;
+   font-size: 1.875rem;
+   color: #0b1a18;
+}
+
+
+.underline{
+    margin-top:.3125rem ;
+    width: 18.75rem;
+    height: .25rem;
+    background-color: #287A70;
+    margin-bottom:.3125rem ;
+}
+
+.contactmain p{
+    color: #0c1816;
+    margin-bottom: .625rem;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18, 36, 36);
+    height: 25rem;
+    background-color: #11a59485;
+    width: 50%;
+}
+
+.leftside h1{
+    font-size: 3.125rem;
+}
+
+.rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25rem;
+    background-color: #287A70;
+    color: #D8B08C;
+    width: 50%;
+}
+
+.rightside p{
+    font-size: 1.5625rem;
+}
